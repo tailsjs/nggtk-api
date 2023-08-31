@@ -1,6 +1,6 @@
 {
   "name": "nggtk-api",
-  "version": "1.0.0",
+  "version": "1.0.0-typings",
   "description": "Неофициальный враппер API НГТК от одного студента для студентов.",
   "main": "index.js",
   "keywords": [
@@ -24,5 +24,6 @@
   "dependencies": {
     "form-data": "^4.0.0",
     "node-fetch": "^2.7.0"
-  }
+  },
+  "typings": "./types"
 }
