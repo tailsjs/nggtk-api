@@ -6,7 +6,7 @@ class Nggtk {
     /**
      * Враппер НГТК API.
      * Неофициальный враппер API НГТК от одного студента для других студентов.
-     * @param { String } uriQuery То, что идёт после https://nggtk.ru/api/v2/METHOD_NAME/
+     * @param { String } uriQuery То, что идёт после https://nggtk.ru/api/v2/METHOD_NAME/?
      */
     constructor(uriQuery) {
         this.uriQuery = uriQuery
