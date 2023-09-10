@@ -80,7 +80,7 @@ await nggtk.getAllEvents()
 ```
 
 ### Nggtk.getSchedule(group)
-* Получение количества/? уведомлений.
+* Получить расписание определённой группы.
 ```js
 const group = "10ПК1"
 await nggtk.getSchedule(group)
@@ -142,7 +142,7 @@ await nggtk.getExpelled()
 * Получение сводки о посещаемости студента.
 ```js
 const action = "TrafficPeriod"
-const peiod = "ThisWeek"
+const period = "ThisWeek"
 await nggtk.getAttendaceStudentInfo(action, period)
 ```
 Возможные action: 
