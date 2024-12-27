@@ -1,29 +1,29 @@
 {
-  "name": "nggtk-api",
-  "version": "1.0.0-typings",
-  "description": "Неофициальный враппер API НГТК от одного студента для студентов.",
-  "main": "index.js",
-  "keywords": [
-    "НГТК",
-    "NGGTK",
-    "НИПТ",
-    "API",
-    "wrapper",
-    "враппер"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tailsjs/nggtk-api.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tailsjs/nggtk-api/issues"
-  },
-  "homepage": "https://github.com/tailsjs/nggtk-api#readme",
-  "author": "tailsjs",
-  "license": "ISC",
-  "dependencies": {
-    "form-data": "^4.0.0",
-    "node-fetch": "^2.7.0"
-  },
-  "typings": "./types"
-}
+    "name": "nggtk-api",
+    "version": "1.1.1",
+    "description": "Неофициальный враппер API НГТК от одного студента для студентов.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "keywords": [
+      "НГТК",
+      "NGGTK",
+      "НИПТ",
+      "API",
+      "wrapper",
+      "враппер"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tailsjs/nggtk-api.git"
+    },
+    "bugs": {
+      "url": "https://github.com/tailsjs/nggtk-api/issues"
+    },
+    "homepage": "https://github.com/tailsjs/nggtk-api#readme",
+    "author": "tailsjs",
+    "license": "ISC",
+    "dependencies": {
+      "form-data": "^4.0.0",
+      "node-fetch": "^2.7.0"
+    }
+  }

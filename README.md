@@ -7,7 +7,7 @@
 
 ## Пример
 ```js
-const Nggtk = require("nggtk-api")
+import { Nggtk } from "nggtk-api"
 
 const nggtk = new Nggtk("URI_QUERY") // В ином случае, будет выводиться ошибка "Sender's signature is not correct".
 
