@@ -152,5 +152,17 @@ await nggtk.getAttendaceStudentInfo(action, period)
 2. TrafficPeriod - Посещаемость за период.
 > Необходимо в period указывать `ThisWeek` (за эту неделю), `ThisMonth` (за этот месяц), `FirstSemester` (первый семестр), `SecondSemester` (второй семестр)
 
+### Nggtk.participate(idEvent)
+* Поучаствовать в событии
+```js
+await nggtk.participate(1)
+```
+
+### Nggtk.getMyDocuments(pin)
+* Получить ваши документы
+```js
+await nggtk.getMyDocuments("1234")
+```
+
 ## Полезные ссылки
 * [Сайт НГТК](https://nggtk.ru/)

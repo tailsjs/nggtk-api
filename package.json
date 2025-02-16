@@ -1,6 +1,6 @@
 {
     "name": "nggtk-api",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Неофициальный враппер API НГТК от одного студента для студентов.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
